@@ -33,6 +33,7 @@ pipeline {
             agent {
                 docker {
                     image "${TERRAFORM_REGISTRY_PUBLISHING_IMAGE}"
+		    alwaysPull true
                     label 'docker'
                     reuseNode true
                 }
