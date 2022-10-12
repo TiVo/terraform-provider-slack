@@ -2,7 +2,7 @@
 
 def providerNamespace = 'pablovarela'
 def providerId = 'slack'
-def providerVersion = 'v1.1.21-tivo.1'
+def providerVersion = 'v1.2.0-tivo.1'
 
 pipeline {
     agent { label 'docker' }
