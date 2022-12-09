@@ -21,7 +21,7 @@ const (
 
 	// 100 is default, slack docs recommend no more than 200, but 1000 is the max.
 	// See also https://github.com/slack-go/slack/blob/master/users.go#L305
-	cursorLimit = 200
+	cursorLimit = 1000
 )
 
 var (
